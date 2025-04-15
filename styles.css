@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4e17f2;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #00796b;
+    font-size: 2.5em;
+}
+
+header p {
+    color: #004d40;
+    /* font-style: italic; */
+    font-size: 1.2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: #00796b;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.English, .experience, .education, .contact{
+    display: none;
+}
+
+.Espanol, .experiencia, .educacion, .contacto{
+    display: none;
+}
+
+
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+.vidAnc{
+    /* justify-content: center;
+    align-items: center;
+    margin: auto; */
+    font-size: larger;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #00796b;
+    border-bottom: 2px solid #004d40;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.job, .school, .skill {
+    margin-bottom: 15px;
+}
+
+
+.toggle-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.toggle-btn:hover {
+    background-color: #004d40;
+}
+
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #00796b;
+    width: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

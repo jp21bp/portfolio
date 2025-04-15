@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link type="image/png" rel="icon" href="./initials.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Things to include:
+    resume
+    photo?
+    link to linkedin/github
+    specialities/services offered
+    awards/certificates
+    personal projects - jopara?
+    explaination of workstyle/process
+    achievements
+    call to action (condensed about me, more active)
+    -->
+    <div class="container">
+        <header>
+            <h1><i>Jordanlee Parra</i></h1>
+            <p>Masters in Machine Learning</p>
+            <p>Maestría en Aprendizaje Automático</p>
+            <!-- <nav>
+                <a href="#profile" class="nav-link">Profile</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link" onclick="openModal()">Contact</a>
+            </nav> -->
+        </header>
+        <button class="toggle-btn" onclick="toggleSection('English')">English Portfolio</button>
+        <section class="English" id="English">
+            <section class="about" id="about">
+                <h2>About Me</h2>
+                <p>Welcome! I'm a bilingual computer science
+                    researcher with a focus on machine learning.
+                    I have a Master's degree in Computer science and
+                    a deep interest in AI and data-driven innovation.
+                </br></br>
+                    This portfolio displays my tech journey into 
+                    machine learning frameworks and tools, such as
+                    Tensorflow, Python, Pandas, Numpy, and more. The
+                    highlighted project demonstrates the use of predictive
+                    models to solve real-world challenges through the use
+                    of embedded devices. It focuses on my analytical mindset,
+                    technical skills, and enthusiasm in the search for 
+                    creative solutions to complex problems.
+                </br></br>
+                    I am commited to staying ahead in the rapidly growing field 
+                    of AI and eager to contribute to impactful, innovative projects.
+                    Thank you for visiting - let's connect and talk soon!
+                </p>
+            </section>
+            </br>
+            <section class="skills">
+                <h2>Highlighted Project - CalCount</h2>
+                <p>This project involves developing a regression model to estimate calorie usage during workouts, 
+                    aiming to provide affordable tracking devices for low-resource communities. It delves into multiple facets of the Tiny MLOps pipelines, 
+                    including: data engineering, model training, and model deployment onto an embedded device. By leveraging the 
+                    CAPTURE-24 dataset, which offers diverse accelerometer data and activity annotations, the model 
+                    will be trained to provide accurate calorie predictions. The device's impact will be assessed 
+                    by comparing participation rates in activities with and without the device, and the primary 
+                    evaluation metric will be Mean Squared Error (MSE). The goal is to enhance physical activity 
+                    engagement, particularly among youth, by creating a low-cost alternative to existing solutions 
+                    like Fitbit and Apple Watch, while ensuring data accuracy and adaptability to various workout 
+                    types and environments. 
+                </p>
+                <div class="skill">
+                    <video width="320" height="240" controls muted poster="./vidPoster.png">
+                        <source src="./MLVideo.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <center>Code: &emsp;<a class="vidAnc" href="https://github.com/jp21bp/TinyML_CalCount" target="blank"> https://github.com/jp21bp/TinyML_CalCount</a></center>
+            </section>
+            <button class="toggle-btn" onclick="toggleSection('experience')">Career Experience</button>
+            <section class="experience" id="experience">
+                <h2>Career Experience</h2>
+                <div class="job">
+                    <h3>Community Economic Developer</h3>
+                    <p>Peace Corps Paraguay</p>
+                    <p>May 2023 - Current</p>
+                    <ul>
+                        <li>Facilitated workshops on financial literacy, business planning, and entrepreneurship to empower community members.</li>
+                        <li>Integrated AI and machine learning concepts to present innovative business ideas, bridging technology with local economic development.</li>
+                        <li>Assessed community assets and collaborated with teams across sectors (health, agriculture, environment) to drive sustainable initiatives.</li>
+                    </ul>
+                    </br>
+                    <h3>Graduate Researcher and Teacher's Assistant</h3>
+                    <p>Florida State University</p>
+                    <p>August 2021 - December 2022</p>
+                    <ul>
+                        <li>Researched ExpressGNN - a missing link prediction model integrating Graph Neural Networks, logic reasoning, and Markov Logic Networks.</li>
+                        <li>Evaluated and optimized training strategies for advanced machine learning models using Python libraries (TensorFlow, NumPy, Scikit-learn, Pandas).</li>
+                        <li>Assisted in teaching advanced courses covering data structures, algorithms, and object-oriented programming in C++.</li>
+                    </ul>
+                    </br>
+                    <h3>Team Leader</h3>
+                    <p>AmeriCorps NCCC</p>
+                    <p>September 2019 - July 2021</p>
+                    <ul>
+                        <li>Led and motivated teams of up to 12 members to deliver community service projects, focusing on empowerment through collaboration and effective communication.</li>
+                        <li>Managed an annual budget of $30,000 while overseeing multiple community infrastructure projects, including food bank enhancements and disaster recovery initiatives.</li>
+                        <li>Developed detailed presentations and analytical reports combining qualitative and quantitative data to drive targeted community improvements.</li>
+                    </ul>
+                </div>
+            </section>
+            <button class="toggle-btn" onclick="toggleSection('education')">Education</button>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <div class="school">
+                    <h3>Masters in Computer Science</h3>
+                    <p>Florida State University</p>
+                    <p>Graduated: December 2022</p>
+                </div>
+                </br>
+                <div class="school">
+                    <h3>Bachelors in Mathematics, Minor in Economics</h3>
+                    <p>Haverford College</p>
+                    <p>Graduated: May 2019</p>
+                </div>
+            </section>
+            
+            <button class="toggle-btn" onclick="toggleSection('contact')">Contact Information</button>
+            <section>
+                <div class="contact" id="contact">
+                    <p>Currently I do not have a phone number with consistent, stable signal,
+                        but feel free to reach out via email.
+                    </p>
+                    </br>
+                    <p>Email: jparra2357@gmail.com</p>
+                </div>
+            </section>
+        </section>
+        </br></br>
+        <button class="toggle-btn" onclick="toggleSection('Espanol')">Portafolio en Español</button>
+        <section class="Espanol" id="Espanol">
+            <section class="about" id="about">
+                <h2>Sobre Yo</h2>
+                <p>¡Bienvenid@s! Soy bilingüe y un investigador de 
+                    computación con un enfoque 
+                    en aprendizaje automático. Tengo una maestría 
+                    en ciencias de la computación y un profundo 
+                    interés en la IA y la innovación 
+                    basada en datos.
+                </br></br>
+                    Este portafolio muestra mi aventura en el mundo 
+                    tecnológico a través de herramientas y frameworks de 
+                    aprendizaje automático como TensorFlow, Python, Pandas, 
+                    Numpy, y más. El proyecto destacado demuestra el uso de 
+                    modelos predictivos para resolver desafíos del mundo 
+                    real mediante dispositivos embebidos. Enfatiza mi 
+                    mentalidad analítica, habilidades técnicas y entusiasmo 
+                    por encontrar soluciones creativas a problemas 
+                    complejos.
+                </br></br>
+                    Estoy comprometido a mantenerme actualizado en el 
+                    campo de rápido crecimiento de la IA
+                     y deseo contribuir a proyectos 
+                    innovadores y de gran impacto. ¡Gracias por visitarme -  
+                    conectemos y conversemos pronto!
+                </p>
+            </section>
+            </br>
+            <section class="skills">
+                <h2>Proyecto Destacado - CalCount</h2>
+                <p>Este proyecto consiste en desarrollar un modelo de regresión para estimar el uso 
+                    de calorías durante los entrenamientos, con el objetivo de proveer dispositivos 
+                    accesible para comunidades de bajos recursos. El proyecto se profundiza en múltiples facetas de la pipeline Tiny MLOps, 
+                    incluyendo: ingeniería de datos, entrenamiento de modelos y despliegue de modelos en un 
+                    dispositivo embebido. Aprovechando los datos de
+                    CAPTURE-24, que ofrece datos diversificados de acelerómetros y 
+                    anotaciones de actividades, el modelo será entrenado para proporcionar predicciones 
+                    precisas de calorías. El progreso del dispositivo se evaluará comparando las tasas de 
+                    participación en actividades con y sin el dispositivo, y la métrica de evaluación 
+                    principal será el Error Cuadrático Medio. El objetivo es aumentar el compromiso 
+                    con la actividad física, especialmente entre los jóvenes, creando una alternativa de 
+                    bajo costo a soluciones existentes como Fitbit y Apple Watch, al mismo tiempo que se 
+                    garantiza la precisión de los datos y la adaptabilidad a diversos tipos de entrenamientos 
+                    y entornos. 
+                </p>
+                </br>
+                <div class="skill">
+                    <video width="320" height="240" controls muted poster="./vidPoster.png">
+                        <source src="./MLVideo.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <center>Codigo: &emsp;<a class="vidAnc" href="https://github.com/jp21bp/TinyML_CalCount" target="blank">  https://github.com/jp21bp/TinyML_CalCount</a></center>
+            </section>
+            <button class="toggle-btn" onclick="toggleSection('experiencia')">Experiencia Professional</button>
+            <section class="experiencia" id="experiencia">
+                <h2>Experiencia Professional</h2>
+                <div class="job">
+                    <h3>Desarrollador Económico Comunitario</h3>
+                    <p>Cuerpo de Paz Paraguay</p>
+                    <p>Mayo 2023 - Ahora</p>
+                    <ul>
+                        <li>Facilité talleres sobre educación financiera, planes de negocios y emprendimiento para empoderar a los miembros de la comunidad.</li>
+                        <li>Integré conceptos de inteligencia artificial y aprendizaje automático para presentar ideas de negocio innovadoras, conectando la tecnología con el desarrollo económico local.</li>
+                        <li>Evalué los recursos disponibles en la comunidad y colaboré con equipos de diversos sectores (salud, agricultura, medio ambiente) para impulsar iniciativas sostenibles.</li>
+                    </ul>
+                    </br>
+                    <h3>Posgrado: Investigador y Asistente</h3>
+                    <p>Florida State University</p>
+                    <p>Augosto 2021 - Diciembre 2022</p>
+                    <ul>
+                        <li>Investigué ExpressGNN, un modelo de predicción de enlaces faltantes que integra Redes Neuronales de Grafos, razonamiento lógico y Redes Lógicas de Markov.</li>
+                        <li>Evalué y optimicé estrategias de entrenamiento para modelos avanzados de aprendizaje automático utilizando bibliotecas de Python (TensorFlow, NumPy, Scikit-learn, Pandas).</li>
+                        <li>Asistí en la enseñanza de cursos avanzados que abarcan estructuras de datos, algoritmos y programación de objetos orientados en C++.</li>
+                    </ul>
+                    </br>
+                    <h3>Líder de Equipo</h3>
+                    <p>AmeriCorps NCCC</p>
+                    <p>Septiembre 2019 - Julio 2021</p>
+                    <ul>
+                        <li>Lideré y motivé a equipos de hasta 12 miembros para llevar a cabo proyectos de servicio comunitario, enfocándome en el empoderamiento a través de la colaboración y la comunicación efectiva.</li>
+                        <li>Gestioné un presupuesto anual de $30,000 mientras supervisaba múltiples proyectos de infraestructura comunitaria, incluyendo mejoramientos en bancos de alimentos e iniciativas de recuperación ante desastres.</li>
+                        <li>Elaboré presentaciones detalladas e informes analíticos que combinan datos cualitativos y cuantitativos para impulsar mejoramientos específicos en la comunidad.</li>
+                    </ul>
+                </div>
+            </section>
+            <button class="toggle-btn" onclick="toggleSection('educacion')">Educación</button>
+            <section class="educacion" id="educacion">
+                <h2>Educación</h2>
+                <div class="school">
+                    <h3>Maestría en Ciencias Computacionales </h3>
+                    <p>Florida State University</p>
+                    <p>Graduación: Diciembre 2022</p>
+                </div>
+                </br>
+                <div class="school">
+                    <h3>Bachiller en Matemáticas, certificado en Ciencias Económica </h3>
+                    <p>Haverford College</p>
+                    <p>Graduación: Mayo 2019</p>
+                </div>
+            </section>
+            <button class="toggle-btn" onclick="toggleSection('contacto')">Información de Contacto </button>
+            <section>
+                <div class="contacto" id="contacto">
+                    <p>Actualmente no tengo un numero telefónico con señal estable y consistente, pero 
+                        puede contactarme vía correo electrónico </p>
+                    </br>
+                    <p>Correo: jparra2357@gmail.com</p>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
