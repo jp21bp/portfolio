@@ -46,11 +46,11 @@ nav {
     text-decoration: underline;
 }
 
-.English, .experience, .education, .contact{
+.English, .projects, .experience, .education, .contact{
     display: none;
 }
 
-.Espanol, .experiencia, .educacion, .contacto{
+.Espanol, .projectos, .experiencia, .educacion, .contacto{
     display: none;
 }
 
