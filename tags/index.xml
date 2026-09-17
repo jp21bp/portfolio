@@ -14,6 +14,20 @@
 		
 			<atom:link href="https://jp21bp.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Docker</title>
+				<link>https://jp21bp.github.io/portfolio/tags/docker/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/docker/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Hypothesis Testing</title>
+				<link>https://jp21bp.github.io/portfolio/tags/hypothesis-testing/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/hypothesis-testing/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>KMeans</title>
 				<link>https://jp21bp.github.io/portfolio/tags/kmeans/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
@@ -28,10 +42,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Pandas</title>
-				<link>https://jp21bp.github.io/portfolio/tags/pandas/</link>
+				<title>Model Deployment</title>
+				<link>https://jp21bp.github.io/portfolio/tags/model-deployment/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>https://jp21bp.github.io/portfolio/tags/pandas/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/model-deployment/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -42,13 +56,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Scikit-Learn</title>
-				<link>https://jp21bp.github.io/portfolio/tags/scikit-learn/</link>
-				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>https://jp21bp.github.io/portfolio/tags/scikit-learn/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Matplotlib</title>
 				<link>https://jp21bp.github.io/portfolio/tags/matplotlib/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
@@ -56,10 +63,73 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Pandas</title>
+				<link>https://jp21bp.github.io/portfolio/tags/pandas/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/pandas/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>SQL</title>
 				<link>https://jp21bp.github.io/portfolio/tags/sql/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
 				<guid>https://jp21bp.github.io/portfolio/tags/sql/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Advanced Tensorflow</title>
+				<link>https://jp21bp.github.io/portfolio/tags/advanced-tensorflow/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/advanced-tensorflow/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Aprendizaje Profundo</title>
+				<link>https://jp21bp.github.io/portfolio/tags/aprendizaje-profundo/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/aprendizaje-profundo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>CNN</title>
+				<link>https://jp21bp.github.io/portfolio/tags/cnn/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/cnn/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Deep Learning</title>
+				<link>https://jp21bp.github.io/portfolio/tags/deep-learning/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/deep-learning/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Finance</title>
+				<link>https://jp21bp.github.io/portfolio/tags/finance/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/finance/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Finanzas</title>
+				<link>https://jp21bp.github.io/portfolio/tags/finanzas/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/finanzas/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>LSTM</title>
+				<link>https://jp21bp.github.io/portfolio/tags/lstm/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/lstm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tensorflow Avanzado</title>
+				<link>https://jp21bp.github.io/portfolio/tags/tensorflow-avanzado/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/tensorflow-avanzado/</guid>
 				<description></description>
 			</item>
 	</channel>
